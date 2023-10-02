@@ -8,27 +8,27 @@ a Docker image to Docker Hub.
 Create IAM roles for your services, such as CodeBuildRole and CodePipelineRole, with appropriate permissions.
 Attach policies for necessary AWS services like S3, ECR, and CodeBuild.
 
-**Integrate with GitHub**
+# Integrate with GitHub
 Integrate your project with GitHub for Repository access.
 
-**Push Code to GitHub 📦**
+# Push Code to GitHub 📦
 Push your code to a source code repository like GitHub.
 
-**Create an AWS CodeBuild Project 🏗️**
+# Create an AWS CodeBuild Project 🏗️
 Configure a CodeBuild project to build your application and create a Docker image.
 Specify the Docker image name and tag.
 
-**Set Up DockerHub Account 🐳**
+# Set Up DockerHub Account 🐳
 Create an account on Docker Hub (if you don't have one).
 Create a repository to store your Docker image.
 Configure SystemsManager Parameter for storing docker credentials.
 
-**Create an AWS CodePipeline 🚀**
+# Create an AWS CodePipeline 🚀
 Create a CodePipeline to automate the CI/CD process.
 Connect your source repository and CodeBuild project.
 Add a build stage to trigger CodeBuild.
 
-**Configure AWS CodePipeline Stages ⚙️**
+# Configure AWS CodePipeline Stages ⚙️
 Define stages in your pipeline:
 Source: Connect to your code repository.
 Build: Use CodeBuild to build the Docker image.
@@ -38,8 +38,8 @@ Add Environment Variables 🤖
 In CodeBuild, set environment variables for DockerHub credentials.
 Ensure that these credentials are securely stored in AWS Secret Manager or SSM Parameter Store.
 
-**Test and Validate Your Pipeline 🧪**
+# Test and Validate Your Pipeline 🧪
 Run a test build in CodePipeline to ensure everything works as expected.
 
-** Start Build Project 🧪**
+# Start Build Project 🧪
 Your docker image is start building & now it is sucessfully push on Docker Hub.
