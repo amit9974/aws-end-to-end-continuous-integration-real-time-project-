@@ -1,3 +1,5 @@
+![image](https://github.com/amit9974/aws-end-to-end-continuous-integration-real-time-project-/assets/88576479/7486c4b0-8a32-48b2-8e36-03b02c667cc7)
+
 # aws-end-to-end-continuous-integration-real-time-project-
 🚀 Here's a step-by-step guide to create an end-to-end Continuous Integration (CI) pipeline on AWS using IAM, CodeBuild, CodePipeline, and Docker to build and push 
 a Docker image to Docker Hub.
