@@ -4,7 +4,7 @@
 🚀 Here's a step-by-step guide to create an end-to-end Continuous Integration (CI) pipeline on AWS using IAM, CodeBuild, CodePipeline, and Docker to build and push 
 a Docker image to Docker Hub.
 
-**Set Up AWS IAM Roles 🧑‍💼**
+# Set Up AWS IAM Roles 🧑‍💼
 Create IAM roles for your services, such as CodeBuildRole and CodePipelineRole, with appropriate permissions.
 Attach policies for necessary AWS services like S3, ECR, and CodeBuild.
 
