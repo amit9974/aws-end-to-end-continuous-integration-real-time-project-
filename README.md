@@ -30,6 +30,7 @@ Configure SystemsManager Parameter for storing docker credentials.
 
 
 # Create an AWS CodePipeline 🚀
+![image](https://github.com/amit9974/aws-end-to-end-continuous-integration-real-time-project-/assets/88576479/cc4d1e67-7fea-4421-aa03-bc8462477f42)
 Create a CodePipeline to automate the CI/CD process.
 Connect your source repository and CodeBuild project.
 Add a build stage to trigger CodeBuild.
@@ -38,8 +39,6 @@ Add a build stage to trigger CodeBuild.
 ![image](https://github.com/amit9974/aws-end-to-end-continuous-integration-real-time-project-/assets/88576479/a9741aab-cd45-4afa-acbf-5146ab638226)
 
 Define stages in your pipeline:
-![image](https://github.com/amit9974/aws-end-to-end-continuous-integration-real-time-project-/assets/88576479/cc4d1e67-7fea-4421-aa03-bc8462477f42)
-
 Source: Connect to your code repository.
 Build: Use CodeBuild to build the Docker image.
 Deploy: Push the Docker image to Docker Hub.
